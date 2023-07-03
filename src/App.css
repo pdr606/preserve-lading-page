@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: white;
+  overflow-x: hidden;
+  width: 100vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.animaLeft {
+  transform: translateX(-60px);
+  opacity: 0;
+  animation: animaLeft 3s forwards;
+  display: block;
+}
+
+.animaRight {
+  transform: translateY(-60px);
+  opacity: 0;
+  animation: animaRight 3s forwards;
+}
+
+.animaSlow {
+  transform: translateX(-200px);
+  opacity: 0;
+  animation: animaSlow 5s forwards;
+}
+
+.piscar {
+  animation: piscar 2s infinite;
+}
+
+.js-scroll {
+  display: block;
+}
+
+.girar {
+  transform: rotate(-90deg);
+  transition: transform 0.5s ease;
+}
+
+.displayNone {
+  display: none;
+}
+@keyframes piscar {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+@keyframes animaLeft {
   to {
-    transform: rotate(360deg);
+    transform: initial;
+    opacity: initial;
+  }
+}
+
+@keyframes animaRight {
+  to {
+    transform: initial;
+    opacity: initial;
+  }
+}
+
+@keyframes animaSlow {
+  to {
+    transform: initial;
+    opacity: initial;
   }
 }

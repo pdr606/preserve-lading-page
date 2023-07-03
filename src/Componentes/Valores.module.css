@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 350px;
+  gap: 15px;
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+
+section img {
+  width: 50px;
+}
+
+section div {
+  color: white;
+  background-color: rgba(54, 92, 183, 1);
+  margin: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+section div h2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.visao {
+  display: block;
+  background-color: #eee;
+  color: rgba(54, 92, 183, 1);
+}
+
+@media (max-width: 767px) {
+  section {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: auto;
+    gap: 15px;
+    font-family: "Nunito", sans-serif;
+    margin-bottom: 20px;
+    margin-top: 100px;
+  }
+
+  section img {
+    width: 50px;
+  }
+
+  section div {
+    color: white;
+    background-color: rgba(54, 92, 183, 1);
+    margin: 10px;
+    height: 300px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  }
+
+  section div h2 {
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .visao {
+    display: block;
+    background-color: #eee;
+    color: rgba(54, 92, 183, 1);
+  }
+}

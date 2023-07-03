@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.containerGeral {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: "Nunito", sans-serif;
+  height: 400px;
+  margin-bottom: auto;
+  margin-bottom: 50px;
+  border-bottom: 1px solid rgba(54, 93, 183, 0.3);
+  border-top: 1px solid rgba(54, 93, 183, 0.3);
+}
+
+.titulo {
+  font-size: 30px;
+}
+
+.titulo h2 {
+  font-weight: 300;
+}
+
+.containerServicos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 300px;
+}
+
+.img {
+  width: 250px;
+  height: 200px;
+  text-align: center;
+  align-items: center;
+  object-fit: cover;
+  padding-top: 20px;
+}
+
+.img img {
+  width: 100%;
+  min-height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.img h3 {
+  font-weight: 300;
+}
+
+.linkContainer {
+  align-items: center;
+  margin: auto;
+  display: flex;
+  height: 60px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  margin: auto;
+  padding: 10px;
+  margin-top: -20px;
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+  .containerGeral {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    height: 1100px;
+    display: flex column;
+    align-items: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(54, 93, 183, 0.3);
+    border-top: 1px solid rgba(54, 93, 183, 0.3);
+  }
+
+  .titulo {
+    font-size: 30px;
+  }
+
+  .titulo h2 {
+    font-weight: 300;
+  }
+
+  .containerServicos {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .img {
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    object-fit: cover;
+    padding-top: 20px;
+  }
+
+  .img img {
+    width: 100%;
+    min-height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+
+  .img h3 {
+    font-weight: 300;
+  }
+
+  .linkContainer {
+    align-items: center;
+    margin: auto;
+    display: flex;
+    height: 60px;
+  }
+
+  .link {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    margin: auto;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+  }
+}
