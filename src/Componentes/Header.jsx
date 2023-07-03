@@ -17,9 +17,9 @@ const Header = () => {
           Serviços
         </Link> */}
         <br />
-        <Link className={styles.linkPlataforma} to="/plataforma">
+        {/* <Link className={styles.linkPlataforma} to="/plataforma">
           Plataforma
-        </Link>
+        </Link> */}
       </nav>
     </header>
   );
