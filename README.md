@@ -1,20 +1,17 @@
-# Getting Started with Create React App
+# Landing Page Simples em React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um exemplo de uma landing page simples em React para apresentar um produto, serviço ou qualquer outra informação relevante. A página é projetada para ser limpa e direta, com foco no objetivo principal.
 
-## Available Scripts
+## Executar o Projeto
 
-In the project directory, you can run:
+Para executar o projeto, siga as etapas abaixo:
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
+1. Certifique-se de ter o Node.js instalado em seu sistema.
+2. Baixe ou clone este repositório.
+3. Abra o terminal e navegue até o diretório raiz do projeto.
+4. Execute o comando `npm install` para instalar as dependências do projeto.
+5. Execute o comando `npm start` para iniciar o aplicativo.
+6. A página será aberta automaticamente no seu navegador padrão.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
